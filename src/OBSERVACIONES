@@ -2,4 +2,169 @@ LISTA DE PUERTOS
 
 https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
 
+https://es.wikipedia.org/wiki/Puerto_de_red
+
 -------------------------------------------------------------------
+
+http://www.marcelopedra.com.ar/blog/2009/08/09/tabla-de-puertos-tcp/
+
+En TCP/IP y redes UDP, un puerto es un punto final a una conexión
+lógica y el medio por el que un programa cliente se comunica con un
+programa específico en una computadora en una red. Algunos puertos
+tienen números preasignados a ellos por la IANA.
+
+Los números de puertos van desde el 0 al 65536, pero sólo los puertos     <-- IMPORTANTE
+del 0 al 1024 están reservados para servicios privilegiados.
+
+Esta lista de números de puertos especifica el puerto usado por el
+puerto del servidor como puerto de contacto.
+
+Para más información: RFC 1700.
+
+Para la lista completa de puertos, ver la tabla Port Numbers de IANA
+
+
+Puerto	Descripción
+1	TCP Port Service Multiplexer (TCPMUX)
+5	Remote Job Entry (RJE)
+7	Protocolo Echo (Responde con eco a llamadas remotas)
+9	Protocolo Discard (Elimina cualquier dato que recibe)
+13	Daytime (Fecha y hora actuales)
+17	Quote of the Day (Cita del Día)
+18	Message Send Protocol (MSP)
+19	Protocolo Chargen, Generador de caractéres
+20	FTP — Datos
+21	FTP — Control
+22	SSH, scp, SFTP – Remote Login Protocol
+23	Telnet
+25	Simple Mail Transfer Protocol (SMTP)
+29	MSG ICP
+37	Time
+42	Host Name Server (Nameserv)
+43	WhoIs
+49	Login Host Protocol (Login)
+53	Domain Name System (DNS)
+66	Oracle SQLNet
+67	BOOTP (BootStrap Protocol) (Server), también usado por DHCP
+68	BOOTP (BootStrap Protocol) (Client), también usado por DHCP
+69	Trivial File Transfer Protocol (TFTP)
+70	Gopher Services
+79	Finger
+80	HTTP
+88	Agente de autenticación Kerberos
+103	X.400 Standard
+107	Remote Telnet Service
+108	SNA Gateway Access Server
+109	POP2
+110	POP3
+115	Simple File Transfer Protocol (SFTP)
+118	SQL Services
+119	Newsgroup (NNTP)
+123	NTP
+137	NetBIOS Name Service
+138	NetBIOS Datagram Service
+139	NetBIOS Session Service
+143	Internet Message Access Protocol (IMAP)
+156	SQL Server
+161	SNMP
+162	SNMP-trap
+177	XDMCP (Protocolo de gestión de displays en X11)
+179	Border Gateway Protocol (BGP)
+190	Gateway Access Control Protocol (GACP)
+194	Internet Relay Chat (IRC)
+197	Directory Location Service (DLS)
+209	Quick Mail Protocol
+217	dBASE Unix
+389	Lightweight Directory Access Protocol (LDAP)
+396	Novell Netware over IP
+443	HTTPS
+444	Simple Network Paging Protocol (SNPP)
+445	Microsoft-DS (Active Directory, compartición en Windows, gusano Sasser, Agobot)
+458	Apple QuickTime
+500	IPSec ISAKMP, Autoridad de Seguridad Local
+512	exec
+513	login
+514	syslog usado para logs del sistema
+515	Printer
+520	RIP
+522	Netmeeting
+531	Conference
+546	DHCP Client
+547	DHCP Server
+563	SNEWS
+569	MSN
+631	CUPS: sistema de impresión de Unix
+666	identificación de Doom para jugar sobre TCP
+992	Telnet SSL
+993	IMAP4 SSL
+995	POP3 SSL
+1080	Socks Proxy
+1352	IBM Lotus Notes/Domino RCP
+1433	Microsoft-SQL-Server
+1434	Microsoft-SQL-Monitor
+1494	Citrix MetaFrame Cliente ICA
+1512	WINS
+1521	Oracle listener
+1701	Enrutamiento y Acceso Remoto para VPN con L2TP
+1723	Enrutamiento y Acceso Remoto para VPN con PPTP
+1761	Novell Zenworks Remote Control utility
+1863	MSN Messenger
+2049	NFS
+2082	CPanel
+2086	WHM (Web Host Manager)
+2427	Cisco MGCP
+3000	Calista IP phone (saliente)
+3030	NetPanzer
+3128	Squid Proxy
+3306	MySQL
+3389	Microsoft Terminal Server
+3396	Novell agente de impresión NDPS
+3690	SubVersion
+4099	AIM Talk
+4662	eMule
+4672	eMule
+4899	RAdmin
+5000	UPNP (Universal plug-and-play)
+5060	SIP (Session Initiation Protocol)
+5190	Calista IP phone (entrante)
+5222	XMPP/Jabber: conexión de cliente
+5223	XMPP/Jabber: puerto por defecto para conexiones de cliente SSL
+5269	XMPP/Jabber: conexión de servidor
+5432	PostgreSQL
+5500	VNC (Virtual Network Computing)
+5517	Setiqueue proyecto SETI@Home
+5631	pcAnyWhere (host)
+5632	pcAnyWhere (host)
+5400	VNC (Virtual Network Computing)
+5500	VNC (Virtual Network Computing)
+5600	VNC (Virtual Network Computing)
+5700	VNC (Virtual Network Computing)
+5800	VNC (Virtual Network Computing)
+5900	VNC (Virtual Network Computing)
+6000	X11 usado para X-windows
+6112	Blizzard Entertainment
+6129	Dameware: Software conexión remota
+6346	Gnutella
+6347	Gnutella
+6348	Gnutella
+6349	Gnutella
+6350	Gnutella
+6355	Gnutella
+6667	IRC
+6881	BitTorrent: puerto por defecto
+6891-6900	MSN Messenger (archivos)
+6901	MSN Messenger (voz)
+6969	BitTorrent: puerto de tracker
+7100	Servidor de Fuentes X11
+8000	Shoutcast
+8080	HTTP alternativo al puerto 80. También Tomcat default
+8118	privoxy
+8291	routers Microtik
+9009	Pichat peer-to-peer chat server
+9898	Dabber (troyano)
+10000	Webmin (Administración remota web)
+12345	Netbus (troyano)
+19226	Puerto de comunicaciones de Panda Agent
+20000-20019	ICQ
+28800-29000	MSN Game Zone
+31337	Back Orifice (troyanos)
